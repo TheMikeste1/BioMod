@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
   <version>0.0.1</version>
-  <manifestUri></manifestUri>
-  <downloadUri></downloadUri>
+  <manifestUri>https://rawgit.com/TheMikeste1/BioMod/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/TheMikeste1/BioMod/releases/0.0.1</downloadUri>
 </Manifest>
