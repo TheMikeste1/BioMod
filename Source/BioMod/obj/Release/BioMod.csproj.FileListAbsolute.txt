@@ -1,0 +1,8 @@
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Source\BioMod\bin\Release\BioMod.dll
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Source\BioMod\bin\Release\BioMod.pdb
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Source\BioMod\obj\Release\BioMod.csprojAssemblyReference.cache
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Source\BioMod\obj\Release\BioMod.csproj.CoreCompileInputs.cache
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Source\BioMod\obj\Release\BioMod.dll
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Source\BioMod\obj\Release\BioMod.pdb
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Assemblies\BioMod.dll
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Assemblies\BioMod.pdb

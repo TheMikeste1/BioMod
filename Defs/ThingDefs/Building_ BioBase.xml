@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+  <ThingDef Abstract="True" Name="Building_BioBase">
+<!--Setup-->
+    <category>Building</category>
+    <thingClass>BioMod.BioBuilding</thingClass>
+    <designationCategory>BIO</designationCategory>
+<!--Graphics & Effects-->
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <repairEffect>Repair</repairEffect>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <drawerType>MapMeshAndRealTime</drawerType>
+<!--Thing Properties-->
+    <tickerType>Long</tickerType> <!--This is what makes the buildings grow. Should be long.-->
+    <statBases>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <passability>Impassable</passability>
+  </ThingDef>
+</Defs>

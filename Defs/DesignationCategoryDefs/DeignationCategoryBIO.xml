@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <DesignationCategoryDef>
+    <defName>BIO</defName>
+    <label>bio</label>
+  </DesignationCategoryDef>
+</Defs>
