@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  <BioMod.BioThingDef ParentName = "Building_BioBase">
+  <BioTech.BioThingDef ParentName = "Building_BioBase">
 <!--Setup-->
-    <thingClass>BioMod.TestWall</thingClass>
+    <thingClass>BioTech.TestWall</thingClass>
     <defName>BIO_TestWall</defName>
     <label>Test Wall</label>
     <description>Just a test.</description>
@@ -16,5 +16,5 @@
       <growDays>0.5</growDays>
     </bioProperties>
     <healRate>1</healRate>
-  </BioMod.BioThingDef>
+  </BioTech.BioThingDef>
 </Defs>

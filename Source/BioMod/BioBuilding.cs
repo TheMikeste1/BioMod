@@ -1,6 +1,6 @@
 ﻿using Verse;
 
-namespace BioMod
+namespace BioTech
 {
     public abstract class BioBuilding : Building
     {

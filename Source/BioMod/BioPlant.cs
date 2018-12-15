@@ -1,4 +1,4 @@
-﻿namespace BioMod
+﻿namespace BioTech
 {
     class BioPlant : RimWorld.Plant
     {

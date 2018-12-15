@@ -7,8 +7,8 @@
     <ProjectGuid>{EAA42818-3224-4E73-80C4-A7694406042D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BioMod</RootNamespace>
-    <AssemblyName>BioMod</AssemblyName>
+    <RootNamespace>BioTech</RootNamespace>
+    <AssemblyName>BioTech</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

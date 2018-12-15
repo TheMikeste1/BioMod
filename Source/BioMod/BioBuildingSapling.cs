@@ -1,4 +1,4 @@
-﻿namespace BioMod
+﻿namespace BioTech
 {
     public abstract class BioBuildingSapling : BioBuildingBase
     {

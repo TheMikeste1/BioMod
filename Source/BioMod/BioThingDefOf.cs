@@ -1,7 +1,7 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace BioMod
+namespace BioTech
 {
     [DefOf]
     public static class BioThingDefOf

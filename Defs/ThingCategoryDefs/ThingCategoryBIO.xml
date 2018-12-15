@@ -2,7 +2,7 @@
 <Defs>
   <ThingCategoryDef>
     <defName>BIO</defName>
-    <label>bio</label>
+    <label>BioTech</label>
     <parent>Root</parent>
   </ThingCategoryDef>
 </Defs>

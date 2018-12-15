@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  <BioMod.BioThingDef Abstract="True" Name="Building_BioBase">
+  <BioTech.BioThingDef Abstract="True" Name="Building_BioBase">
 <!--Setup-->
     <category>Building</category>
 <!--Graphics & Effects-->
@@ -25,5 +25,5 @@
     <selectable>true</selectable>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <passability>Standable</passability>
-  </BioMod.BioThingDef>
+  </BioTech.BioThingDef>
 </Defs>

@@ -3,7 +3,7 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
-namespace BioMod
+namespace BioTech
 {
     public abstract class BioBuildingBase : Building
     {

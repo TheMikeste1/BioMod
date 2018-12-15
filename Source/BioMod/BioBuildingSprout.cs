@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using Verse;
 
-namespace BioMod
+namespace BioTech
 {
     public abstract class BioBuildingSprout : BioBuildingBase
     {

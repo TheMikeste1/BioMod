@@ -1,7 +1,7 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace BioMod
+namespace BioTech
 {
     public abstract class BuildingPlanterBase : Building
     {

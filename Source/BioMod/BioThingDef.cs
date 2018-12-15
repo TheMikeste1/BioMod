@@ -1,6 +1,6 @@
 ﻿using Verse;
 
-namespace BioMod
+namespace BioTech
 {
     public class BioThingDef : ThingDef
     {
