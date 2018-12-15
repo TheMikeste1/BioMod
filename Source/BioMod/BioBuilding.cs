@@ -6,7 +6,10 @@ namespace BioMod
     {
         public override void TickLong()
         {
-            this.HitPoints += (def as BioThingDef).healRate;
+            if (this.HitPoints < this.MaxHitPoints)
+            {
+                this.HitPoints += (def as BioThingDef).healRate;
+            }
         }
     }
 

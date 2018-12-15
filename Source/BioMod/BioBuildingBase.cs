@@ -132,7 +132,10 @@ namespace BioMod
                 }
 
                 this.ageInt += ticks;
-                this.HitPoints += (def as BioThingDef).healRate;
+                if (this.HitPoints < this.MaxHitPoints)
+                {
+                    this.HitPoints += (def as BioThingDef).healRate;
+                }
             }
             else //When ready to progress to the next stage..
             {
