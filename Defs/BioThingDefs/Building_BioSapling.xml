@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  <BioTech.BioThingDef ParentName = "Building_BioBase">
+  <BioTech.BioThingDef Abstract = "True" ParentName = "Building_BioBase" Name = "Building_BioSaplingBase">
+<!--Setup-->
+    <thingClass>BioTech.BioBuildingSapling</thingClass>
+<!--Graphics & Effects-->
+<!--Thing Properties-->
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+  </BioTech.BioThingDef>
+
+  <BioTech.BioThingDef ParentName = "Building_BioSaplingBase">
 <!--Setup-->
     <thingClass>BioTech.TestWallSapling</thingClass>
     <defName>BIO_TestWallSapling</defName>
