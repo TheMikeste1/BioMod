@@ -5,7 +5,9 @@
     <thingClass>BioTech.BioPlanter</thingClass>
     <category>Building</category>
     <designationCategory>BIO</designationCategory>
-    <thingCategory>Building</thingCategory>
+    <thingCategories>
+      <li>BIO</li>
+    </thingCategories>
 <!--Graphics & Effects-->
 <!--Thing Properties-->
     <passability>Standable</passability>
@@ -14,19 +16,25 @@
       <Mass>1</Mass>
     </statBases>
     <minifiedDef>MinifiedThing</minifiedDef>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
   </BioTech.BioThingDef>
 
   <BioTech.BioThingDef ParentName = "Building_BioPlanterBase">
     <!--Setup-->
-        <thingClass>BioTech.TestPlanter</thingClass>
-        <defName>BIO_TestPlanter</defName>
-        <label>Test Planter</label>
+        <thingClass>BioTech.TestWallPlanter</thingClass>
+        <defName>BIO_TestWallPlanter</defName>
+        <label>Test Wall Planter</label>
         <description>Just a test.</description>
     <!--Graphics & Effects-->
         <graphicData>
-          <texPath>Things/Building/TestPlanter</texPath>
+          <texPath>Things/Building/TestWallPlanter</texPath>
         </graphicData>
-        <uiIconPath>Things/Building/TestPlanter</uiIconPath>
+        <uiIconPath>Things/Building/TestWallPlanter</uiIconPath>
 <!--Thing Properties-->
   </BioTech.BioThingDef>
 </Defs>

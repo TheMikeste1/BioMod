@@ -2,7 +2,7 @@
 
 namespace BioTech
 {
-    public abstract class BioBuilding : Building
+    public abstract class BioBuildingMature : Building
     {
         public override void TickLong()
         {
@@ -10,14 +10,6 @@ namespace BioTech
             {
                 this.HitPoints += (def as BioThingDef).healRate;
             }
-        }
-    }
-
-    public class TestWall : BioBuilding
-    {
-        public TestWall()
-        {
-
         }
     }
 }

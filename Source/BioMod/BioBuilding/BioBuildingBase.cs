@@ -221,7 +221,7 @@ namespace BioTech
             {
                 stringBuilder.AppendLine(currentStage);
             }
-            stringBuilder.AppendLine(this.GrowthPercentString + " grown towards next stage");
+            stringBuilder.AppendLine("Progress towards next stage: " + this.GrowthPercentString);
             stringBuilder.AppendLine("GrowthRate".Translate() + ": " + this.GrowthRate.ToStringPercent());
             if (this.Resting)
             {

@@ -44,13 +44,4 @@ namespace BioTech
             }
         }
     }
-
-    public class TestPlanter : BuildingPlanterBase
-    {
-        public TestPlanter()
-        {
-            nextStage = BioThingDefOf.BIO_TestWallSprout;
-            growthCountdown = 0;
-        }
-    }
 }

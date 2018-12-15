@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  <BioTech.BioThingDef ParentName = "Building_BioBase">
+  <BioTech.BioThingDef Abstract = "True" ParentName = "Building_BioBase" Name = "Building_BioWallBase">
 <!--Setup-->
-    <thingClass>BioTech.TestWall</thingClass>
-    <defName>BIO_TestWall</defName>
+    <thingClass>BioTech.BioBuilding</thingClass>
+<!--Graphics & Effects-->
+<!--Thing Properties-->
+    <passability>Impassable</passability>
+  </BioTech.BioThingDef>
+
+  <BioTech.BioThingDef ParentName = "Building_BioWallBase">
+<!--Setup-->
+    <thingClass>BioTech.TestWallMature</thingClass>
+    <defName>BIO_TestWallMature</defName>
     <label>Test Wall</label>
     <description>Just a test.</description>
 <!--Graphics & Effects-->
     <graphicData>
-      <texPath>Things/Building/TestWall</texPath>
+      <texPath>Things/Building/TestWallMature</texPath>
     </graphicData>
-    <uiIconPath>Things/Building/TestWall</uiIconPath>
+    <uiIconPath>Things/Building/TestWallMature</uiIconPath>
 <!--Thing Properties-->
     <bioProperties>
       <growDays>0.5</growDays>

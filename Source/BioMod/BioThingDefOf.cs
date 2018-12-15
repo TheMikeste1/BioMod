@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using System.IO;
+using RimWorld;
 using Verse;
 
 namespace BioTech
@@ -11,10 +12,10 @@ namespace BioTech
             DefOfHelper.EnsureInitializedInCtor(typeof(BioThingDefOf));
         }
 
-        public static BioThingDef BIO_TestPlanter;
+        public static BioThingDef BIO_TestWallPlanter;
         public static BioThingDef BIO_TestWallSprout;
         public static BioThingDef BIO_TestWallSeedling;
         public static BioThingDef BIO_TestWallSapling;
-        public static BioThingDef BIO_TestWall;
+        public static BioThingDef BIO_TestWallMature;
     }
 }

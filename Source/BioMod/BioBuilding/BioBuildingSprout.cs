@@ -10,12 +10,4 @@ namespace BioTech
             currentStage = "Sprout";
         }
     }
-
-    public class TestWallSprout : BioBuildingSprout
-    {
-        public TestWallSprout()
-        {
-            nextStage = BioThingDefOf.BIO_TestWallSeedling;
-        }
-    }
 }

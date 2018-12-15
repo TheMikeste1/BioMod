@@ -47,17 +47,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BioBuilding.cs" />
-    <Compile Include="BioBuildingSprout.cs" />
-    <Compile Include="BioBuildingSapling.cs" />
-    <Compile Include="BioBuildingSeedling.cs" />
-    <Compile Include="BioBuildingBase.cs" />
+    <Compile Include="BioBuilding\BioBuildingMature.cs" />
+    <Compile Include="BioBuilding\BioBuildingSprout.cs" />
+    <Compile Include="BioBuilding\BioBuildingSapling.cs" />
+    <Compile Include="BioBuilding\BioBuildingSeedling.cs" />
+    <Compile Include="BioBuilding\BioBuildingBase.cs" />
     <Compile Include="BioProperties.cs" />
-    <Compile Include="BioPlant.cs" />
     <Compile Include="BioThingDefOf.cs" />
     <Compile Include="BioThingDef.cs" />
-    <Compile Include="BuildingPlanter.cs" />
+    <Compile Include="TestWall\TestPlanter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestWall\TestWallMature.cs" />
+    <Compile Include="TestWall\TestWallSapling.cs" />
+    <Compile Include="TestWall\TestWallSeedling.cs" />
+    <Compile Include="TestWall\TestWallSprout.cs" />
+    <Compile Include="BioBuilding\BuildingPlanter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
