@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <BioMod.BioThingDef Name="Building_TestPlanter">
+    <!--Setup-->
+        <thingClass>BioMod.TestPlanter</thingClass>
+        <defName>BIO_TestPlanter</defName>
+        <label>Test Planter</label>
+        <description>Just a test.</description>
+        <category>Building</category>
+        <designationCategory>BIO</designationCategory>
+    <!--Graphics & Effects-->
+        <graphicData>
+          <texPath>Things/Building/TestPlanter</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <linkType>CornerFiller</linkType>
+          <linkFlags>
+            <li>Wall</li>
+            <li>Rock</li>
+          </linkFlags>
+        </graphicData>
+        <uiIconPath>Things/Building/TestPlanter</uiIconPath>
+        <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+        <repairEffect>Repair</repairEffect>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <drawerType>MapMeshAndRealTime</drawerType>
+<!--Thing Properties-->
+        <tickerType>Long</tickerType> <!--This is what makes the buildings grow. Should be long.-->
+        <statBases>
+          <SellPriceFactor>0.70</SellPriceFactor>
+        </statBases>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <selectable>true</selectable>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <passability>Standable</passability>
+  </BioMod.BioThingDef>
+</Defs>

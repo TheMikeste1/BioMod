@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <BioMod.BioThingDef ParentName = "Building_BioBase">
+<!--Setup-->
+    <thingClass>BioMod.TestWallSprout</thingClass>
+    <defName>BIO_TestWallSprout</defName>
+    <label>Test Wall</label>
+    <description>Just a test.</description>
+<!--Graphics & Effects-->
+    <graphicData>
+      <texPath>Things/Building/TestWallSprout</texPath>
+    </graphicData>
+    <uiIconPath>Things/Building/TestWallSprout</uiIconPath>
+<!--Thing Properties-->
+    <bioProperties>
+      <growDays>0.5</growDays>
+    </bioProperties>
+  </BioMod.BioThingDef>
+</Defs>

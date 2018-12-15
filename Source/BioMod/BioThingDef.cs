@@ -1,7 +1,15 @@
-﻿namespace BioMod
+﻿using Verse;
+
+namespace BioMod
 {
-    public class BioThingDef : Verse.ThingDef
+    public class BioThingDef : ThingDef
     {
-        public BioBuildingProperties bioBuilding;
+        public BioProperties bioProperties;
+        public int healRate = 0;
+
+        public BioThingDef()
+        {
+            bioProperties = new BioProperties();
+        }
     }
 }

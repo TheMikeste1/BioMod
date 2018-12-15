@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <BioMod.BioThingDef ParentName = "Building_BioBase">
+<!--Setup-->
+    <thingClass>BioMod.TestWallSapling</thingClass>
+    <defName>BIO_TestWallSapling</defName>
+    <label>Test Wall</label>
+    <description>Just a test.</description>
+<!--Graphics & Effects-->
+    <graphicData>
+      <texPath>Things/Building/TestWallSapling</texPath>
+    </graphicData>
+    <uiIconPath>Things/Building/TestWallSapling</uiIconPath>
+<!--Thing Properties-->
+    <bioProperties>
+      <growDays>0.5</growDays>
+    </bioProperties>
+  </BioMod.BioThingDef>
+</Defs>
