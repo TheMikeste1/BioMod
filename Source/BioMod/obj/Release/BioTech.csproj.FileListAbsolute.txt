@@ -4,3 +4,9 @@ D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Assemblies\BioTech.d
 D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Assemblies\BioTech.pdb
 D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Source\BioMod\obj\Release\BioTech.dll
 D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioMod\Source\BioMod\obj\Release\BioTech.pdb
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioTech\Assemblies\BioTech.dll
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioTech\Assemblies\BioTech.pdb
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioTech\Source\BioMod\obj\Release\BioTech.csprojAssemblyReference.cache
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioTech\Source\BioMod\obj\Release\BioTech.csproj.CoreCompileInputs.cache
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioTech\Source\BioMod\obj\Release\BioTech.dll
+D:\Games\SteamLibrary\steamapps\common\RimWorld\Mods\BioTech\Source\BioMod\obj\Release\BioTech.pdb

@@ -7,6 +7,7 @@ namespace BioTech
     {
         protected int growthCountdown = 3;
         protected ThingDef nextStage = null;
+        protected bool minifiable = true;
 
         /**********************************************************************
          * void TickRare (override)
