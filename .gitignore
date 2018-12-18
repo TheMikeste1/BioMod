@@ -1,3 +1,6 @@
 
 *.suo
 *.ide-shm
+Source/.vs/BioTech/v15/.suo
+*.ide-shm
+*.ide-wal

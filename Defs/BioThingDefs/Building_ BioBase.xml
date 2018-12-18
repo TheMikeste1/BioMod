@@ -10,11 +10,7 @@
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <linkType>CornerFiller</linkType>
-      <linkFlags>
-        <li>Wall</li>
-        <li>Rock</li>
-      </linkFlags>
+      <linkType>None</linkType>
     </graphicData>
 <!--Thing Properties-->
     <tickerType>Long</tickerType> <!--This is what makes the buildings grow. Should be long.-->

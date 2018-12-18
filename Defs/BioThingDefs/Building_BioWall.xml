@@ -4,8 +4,16 @@
 <!--Setup-->
     <thingClass>BioTech.BioBuilding</thingClass>
 <!--Graphics & Effects-->
+    <graphicData>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+    </graphicData>
 <!--Thing Properties-->
     <passability>Impassable</passability>
+    <holdsRoof>True</holdsRoof>
   </BioTech.BioThingDef>
 
   <BioTech.BioThingDef ParentName = "Building_BioWallBase">
@@ -16,13 +24,10 @@
     <description>Just a test.</description>
 <!--Graphics & Effects-->
     <graphicData>
-      <texPath>Things/Building/TestWallMature</texPath>
+      <texPath>Things/Building/TestWall/TestWallMature</texPath>
     </graphicData>
-    <uiIconPath>Things/Building/TestWallMature</uiIconPath>
+    <uiIconPath>Things/Building/TestWall/TestWallMature</uiIconPath>
 <!--Thing Properties-->
-    <bioProperties>
-      <growDays>0.5</growDays>
-    </bioProperties>
     <healRate>1</healRate>
   </BioTech.BioThingDef>
 </Defs>

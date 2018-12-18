@@ -1,6 +1,4 @@
-﻿using System.IO;
-using RimWorld;
-using Verse;
+﻿using RimWorld;
 
 namespace BioTech
 {
@@ -17,5 +15,9 @@ namespace BioTech
         public static BioThingDef BIO_TestWallSeedling;
         public static BioThingDef BIO_TestWallSapling;
         public static BioThingDef BIO_TestWallMature;
+
+        public static BioThingDef BIO_HedgePlanter;
+        public static BioThingDef BIO_HedgeSprout;
+        public static BioThingDef BIO_HedgeMature;
     }
 }

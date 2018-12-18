@@ -1,6 +1,4 @@
-﻿using Verse;
-
-namespace BioTech
+﻿namespace BioTech
 {
     public class TestWallMature : BioBuildingMature
     {

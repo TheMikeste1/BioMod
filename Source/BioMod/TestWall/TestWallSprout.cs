@@ -1,7 +1,4 @@
-﻿using System.Text;
-using Verse;
-
-namespace BioTech
+﻿namespace BioTech
 {
     public class TestWallSprout : BioBuildingSprout
     {

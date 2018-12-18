@@ -7,6 +7,7 @@
 <!--Thing Properties-->
     <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
+    <holdsRoof>False</holdsRoof>
   </BioTech.BioThingDef>
 
   <BioTech.BioThingDef ParentName = "Building_BioSaplingBase">
@@ -17,12 +18,12 @@
     <description>Just a test.</description>
 <!--Graphics & Effects-->
     <graphicData>
-      <texPath>Things/Building/TestWallSapling</texPath>
+      <texPath>Things/Building/TestWall/TestWallSapling</texPath>
     </graphicData>
-    <uiIconPath>Things/Building/TestWallSapling</uiIconPath>
+    <uiIconPath>Things/Building/TestWall/TestWallSapling</uiIconPath>
 <!--Thing Properties-->
     <bioProperties>
-      <growDays>0.5</growDays>
+      <growDays>0.1</growDays>
     </bioProperties>
   </BioTech.BioThingDef>
 </Defs>

@@ -7,6 +7,7 @@
 <!--Thing Properties-->
     <passability>Standable</passability>
     <pathCost>30</pathCost>
+    <holdsRoof>False</holdsRoof>
   </BioTech.BioThingDef>
 
   <BioTech.BioThingDef ParentName = "Building_BioSeedlingBase">
@@ -17,12 +18,12 @@
     <description>Just a test.</description>
 <!--Graphics & Effects-->
     <graphicData>
-      <texPath>Things/Building/TestWallSeedling</texPath>
+      <texPath>Things/Building/TestWall/TestWallSeedling</texPath>
     </graphicData>
-    <uiIconPath>Things/Building/TestWallSeedling</uiIconPath>
+    <uiIconPath>Things/Building/TestWall/TestWallSeedling</uiIconPath>
 <!--Thing Properties-->
     <bioProperties>
-      <growDays>0.5</growDays>
+      <growDays>0.1</growDays>
     </bioProperties>
   </BioTech.BioThingDef>
 </Defs>

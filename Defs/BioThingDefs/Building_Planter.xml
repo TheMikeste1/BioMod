@@ -19,9 +19,10 @@
     <placingDraggableDimensions>1</placingDraggableDimensions>
     <building>
       <blueprintGraphicData>
-        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+        <texPath>Things/Building/GenericPlanterBlueprint</texPath>
       </blueprintGraphicData>
     </building>
+    <holdsRoof>False</holdsRoof>
   </BioTech.BioThingDef>
 
   <BioTech.BioThingDef ParentName = "Building_BioPlanterBase">
@@ -32,9 +33,9 @@
         <description>Just a test.</description>
     <!--Graphics & Effects-->
         <graphicData>
-          <texPath>Things/Building/TestWallPlanter</texPath>
+          <texPath>Things/Building/TestWall/TestWallPlanter</texPath>
         </graphicData>
-        <uiIconPath>Things/Building/TestWallPlanter</uiIconPath>
+        <uiIconPath>Things/Building/TestWall/TestWallPlanter</uiIconPath>
 <!--Thing Properties-->
   </BioTech.BioThingDef>
 </Defs>

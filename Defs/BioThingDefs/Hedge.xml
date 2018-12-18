@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <BioTech.BioThingDef ParentName = "Building_BioWallBase">
+<!--Setup-->
+    <thingClass>BioTech.GenericWallMature</thingClass>
+    <defName>BIO_HedgeMature</defName>
+    <label>Hedge</label>
+    <description>A well-trimmed hedge. It's not great for defence, but is very pretty. Perfect for gardens!</description>
+<!--Graphics & Effects-->
+    <graphicData>
+      <texPath>Things/Building/Hedge/Hedge_Atlas</texPath>
+    </graphicData>
+<!--Thing Properties-->
+    <healRate>1</healRate>
+    <fillPercent>0.4</fillPercent>
+    <holdsRoof>False</holdsRoof>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Beauty>10</Beauty>
+    </statBases>
+  </BioTech.BioThingDef>
+
+  <BioTech.BioThingDef ParentName = "Building_BioSproutBase">
+<!--Setup-->
+    <thingClass>BioTech.HedgeSprout</thingClass>
+    <defName>BIO_HedgeSprout</defName>
+    <label>Hedge</label>
+    <description>A well-trimmed hedge. It's not great for defence, but is very pretty. Perfect for gardens!</description>
+<!--Graphics & Effects-->
+    <graphicData>
+      <texPath>Things/Building/Hedge/HedgeSprout</texPath>
+    </graphicData>
+<!--Thing Properties-->
+    <bioProperties>
+      <growDays>1</growDays>
+    </bioProperties>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+    </statBases>
+    <fillPercent>0.1</fillPercent>
+  </BioTech.BioThingDef>
+
+  <BioTech.BioThingDef ParentName = "Building_BioPlanterBase">
+<!--Setup-->
+        <thingClass>BioTech.HedgePlanter</thingClass>
+        <defName>BIO_HedgePlanter</defName>
+        <label>Hedge Planter</label>
+        <description>A planter for a hedge. While not great for defence, they are very pretty. Perfect for gardens!</description>
+<!--Graphics & Effects-->
+        <graphicData>
+          <texPath>Things/Building/GenericPlanter</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/Hedge/Hedge</uiIconPath>
+<!--Thing Properties-->
+        <statBases>
+          <MaxHitPoints>40</MaxHitPoints>
+        </statBases>
+        <fillPercent>0.1</fillPercent>
+  </BioTech.BioThingDef>
+</Defs>
