@@ -11,9 +11,15 @@
         <li>Rock</li>
       </linkFlags>
     </graphicData>
+    <castEdgeShadows>True</castEdgeShadows>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>True</blockLight>
 <!--Thing Properties-->
     <passability>Impassable</passability>
     <holdsRoof>True</holdsRoof>
+    <blockWind>True</blockWind>
+    <leaveResourcesWhenKilled>False</leaveResourcesWhenKilled>
+    <canOverlapZones>False</canOverlapZones>
   </BioTech.BioThingDef>
 
   <BioTech.BioThingDef ParentName = "Building_BioWallBase">

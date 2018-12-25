@@ -48,7 +48,7 @@
         <description>A planter for a hedge. While not great for defence, they are very pretty. Perfect for gardens!</description>
 <!--Graphics & Effects-->
         <graphicData>
-          <texPath>Things/Building/GenericPlanter</texPath>
+          <texPath>Things/Building/GenericPlanterPrimitive</texPath>
         </graphicData>
         <uiIconPath>Things/Building/Hedge/Hedge</uiIconPath>
 <!--Thing Properties-->
